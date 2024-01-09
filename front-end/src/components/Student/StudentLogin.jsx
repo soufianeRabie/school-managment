@@ -28,7 +28,7 @@ import {
     loginStudent,
     setStudent,
     setIsLoggedIn,
-} from "../../features/Student/StudentSlice.jsx";
+} from "../../features/User/StudentSlice.jsx";
 import { StudentApi } from "../../../Services/Student/StudentApi.js";
 
 const formSchema = z.object({
