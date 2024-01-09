@@ -17,7 +17,7 @@ import {useDispatch, useSelector} from "react-redux";
 import {Link, useNavigate} from "react-router-dom";
 import {LOGIN_ROUTE} from "../../router/index.jsx";
 import {StudentApi} from "../../../Services/Student/StudentApi.js";
-import {logout} from "../../features/User/StudentSlice.jsx";
+import {logout} from "../../features/Student/StudentSlice.jsx";
 import {LogOut} from "lucide-react";
 
 export function DropdownMenuDemo() {

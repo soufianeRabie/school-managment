@@ -5,7 +5,7 @@ import {useDispatch, useSelector} from "react-redux";
 import {DropdownMenuDemo} from "./studentDropDownMenu.jsx";
 import {ModeToggle} from "../../components/mode-toggle.jsx";
 import {Sidebar} from "./Administrations/StudentAdministrationSideBar.jsx";
-import {logout, setIsLoggedIn, setStudent} from "../../features/User/StudentSlice.jsx";
+import {logout, setIsLoggedIn, setStudent} from "../../features/Student/StudentSlice.jsx";
 import {StudentApi} from "../../../Services/Student/StudentApi.js";
 
 function Layout(props) {

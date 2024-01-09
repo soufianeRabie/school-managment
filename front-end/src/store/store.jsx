@@ -1,5 +1,5 @@
 import { configureStore } from "@reduxjs/toolkit";
-import StudentSlice from "../features/User/StudentSlice.jsx";
+import StudentSlice from "../features/Student/StudentSlice.jsx";
 
 const studentStore = configureStore({
     reducer: {

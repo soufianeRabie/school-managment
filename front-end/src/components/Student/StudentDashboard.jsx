@@ -3,7 +3,7 @@ import {useDispatch, useSelector} from "react-redux";
 import {LOGIN_ROUTE, USER_DASHBOARD_ROUTE} from "../../router/index.jsx";
 import {StudentApi} from "../../../Services/Student/StudentApi.js";
 import {useNavigate} from "react-router-dom";
-import {logout, setStudent} from "../../features/User/StudentSlice.jsx";
+import {logout, setStudent} from "../../features/Student/StudentSlice.jsx";
 
 
 

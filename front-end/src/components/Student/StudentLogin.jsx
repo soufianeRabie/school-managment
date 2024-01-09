@@ -28,7 +28,7 @@ import {
     loginStudent,
     setStudent,
     setIsLoggedIn,
-} from "../../features/User/StudentSlice.jsx";
+} from "../../features/Student/StudentSlice.jsx";
 import { StudentApi } from "../../../Services/Student/StudentApi.js";
 
 const formSchema = z.object({
@@ -52,7 +52,7 @@ function StudentLogin(props) {
 
     const onSubmit = async (values) => {
         try {
-            dispatch(fetchCsrfToken())
+           await dispatch(fetchCsrfToken())
             await dispatch(loginStudent({email:values.email, password:values.password}));
             const response = await StudentApi.getUser();
             if (response && response.status === 200 ) {
